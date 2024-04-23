@@ -16,3 +16,7 @@
 
 ## Running RabbitMQ as message broker.
 ![RabbitMQ](image.png)
+
+## Sending and processing event.
+![alt text](image-1.png)
+Setelah program publisher dijalankan, data yang telah diprogram secara tetap di dalam publisher akan dikirimkan ke message queue. Kemudian, subscriber akan menerima data tersebut dari message queue dan menampilkan message pada lampiran yang disebutkan sebelumnya.
