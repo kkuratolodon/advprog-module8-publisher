@@ -20,3 +20,7 @@
 ## Sending and processing event.
 ![alt text](image-1.png)
 Setelah program publisher dijalankan, data yang telah diprogram secara tetap di dalam publisher akan dikirimkan ke message queue. Kemudian, subscriber akan menerima data tersebut dari message queue dan menampilkan message pada lampiran yang disebutkan sebelumnya.
+
+## Monitoring chart based on publisher.
+![alt text](image-2.png)
+Terjadi *spike* yang menunjukkan adanya peningkatan laju pesan pada waktu tertentu. Hal ini disebabkan oleh pelaksanaan perintah cargo run secara berulang pada *publisher*, yang menyebabkan peningkatan laju pesan di RabbitMQ, yang merupakan sistem antrian pesan.
